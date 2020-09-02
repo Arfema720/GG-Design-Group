@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://i2.wp.com/www.essiprojects.com/site/wp-content/uploads/2017/05/home.jpg?fit=1600%2C897&ssl=1");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #000000;
+  width:100%;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+
+
+}
+
+.left {
+  border: solid 5px white;
+  float: center;
+  width: 100%;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1px;
+  text-align: center;
+  background: black;
+  width:100%;
+}
+
+
+header h1 {
+  font-size: 50px;
+  padding: 30px;
+  text-align: center;
+  background-color: blue;
+  height: 60px;
+}
+
+html, body {width: auto!important; overflow-x: hidden!important}
+
+H1 {
+
+  padding: 50px;
+  color: white;
+}
+h2 {
+color: white;
+
+    font-family: verdana;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://static01.nyt.com/images/2020/08/11/science/09SCI-KUIPER1/merlin_165009318_4ab82ddb-3fa0-4e9f-ba21-5df74d24db16-superJumbo.jpg?quality=90&auto=webp");
+    background-color: #cccccc;
+    width: 100%;
+
+  }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: Left;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 21px;
+
+
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    left: 0;
+    right: 0;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+
+}
+
+img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.left:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.left {
+  padding: 5px;
+  width: auto;
+}
+
+.div-1 {
+        background-color: #F0F0F0;
+        text-align: center;
+
+        height: 500px;
+        padding: 40px;
+
+      }
+
+.div-2 {
+        align-content: stretch;
+
+
+            }
+
+.fakeimg {
+  background-color: #aaa;
+  width: 200px
+  height 150px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: auto
+  text-align: center;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+p {
+
+  padding; 50px;
+  text-align: center;
+
+}
+
+.right {
+  padding; 50px;
+  text-align: center;
+}
+
+button {
+
+  border: none;
+  color: black;
+  position:center;
+  width: 100%;
+  padding: 20px;
+  font-size:18px;
+  cursor: pointer;
+  background-color: #4CAF50;
+
+
+
+}
+
+button:hover {
+  background-color: #000099;
+  color: white;
+
+}
+
+
+footer {
+    position: fix;
+    width: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    background: #3B5998;
+
+  }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 60px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 60px;
+
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  width: 60px;
+
+}
+
+@media screen and (max-width: 1600px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+</style>
+<head>
+<body>
+  <h1>GG Design Group</h1>
+  <seccion>
+
+  </seccion>
+<div class="parallax"></div>
+
+<div class="header">
+
+<div id="navbar">
+  <a href="javascript:void(0)">Contact</a>
+  <a href="javascript:void(0)">Scan Your Area</a>
+  <a class="active" href="javascript:void(0)">Product</a>
+</div>
+<div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Enhance the safety of your love ones</h2>
+
+      <sec>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/y4bCtiRL0Hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </sec>
+ <button onclick="window.location.href='https://www.ggdesigngroup.com/';">
+     Find Out More </button>
+
+      <p style="text-align: left; font-weight: bold; font-size:28px;">Check our company website to gather more information.</p>
+
+      <p style="text-align: left; font-size:21px; ">It is designed to be safer during catastrophes. Our structure increases safety and security during a catastrophe. It is safer than average buildings during hurricanes, wildfires, earthquakes and pandemics.</p>
+
+      <h2>Scan your area</h2>
+      <iframe src="https://fema.maps.arcgis.com/apps/webappviewer/index.html?id=e7a7dc3ebd7f4ad39bb8e485bb64ce44" width="100%" height="800" class="center">
+</iframe>
+
+<button onclick="window.location.href='https://www.ggdesigngroup.com/scanarea';">
+    Check Your Area </button>
+    <seccion>
+
+    </seccion>
+    <p style="text-align: left; font-weight: bold; font-size:28px;">Start by searching with your location zipcode</p>
+    <p style="text-align: left; font-size:21px">By adding your zip code you can scan your area an indenteft any potential catastrophes like wildfires, earthquakes, sea levelrise and pandemics in your area</p>
+
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+
+    <div class="card">
+      <h2>The Team</h2>
+      <img src="https://i.ibb.co/wsRxSbs/pexels-andrea-piacquadio-3866646.jpg";>
+
+<BR CLEAR=”left” />
+ <p style="text-align:center;">We are a Miami based company focus on evolving the world of architecture towards sustainability, technology, and resilient structures. Our mission is to increase the rate of survival during a catastrophe, enhance safety and improve the quality of life for you and your loved ones</p>
+
+      <h2>Product</h2>
+
+<div class="div-2">
+      <a href="https://ibb.co/wyMgLP3"><img src="https://i.ibb.co/D45Wbvs/Screen-Shot-2020-08-23-at-11-58-46-AM.png" alt="Screen-Shot-2020-08-23-at-11-58-46-AM" border="0 width="100%" height="110px" class="left""></a>
+      <a href="https://ibb.co/74NBHsh"><img src="https://i.ibb.co/Sr7H2FS/Screen-Shot-2020-08-23-at-11-58-24-AM.png" alt="Screen-Shot-2020-08-23-at-11-58-24-AM" border="0 width="100%" height="110PX" class="left""></a>
+</div>
+
+      <h2>Contact US</h2>
+
+<div class="container"style="width: 100%; height:300px">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name.."style="width: 100%; height:30px"></input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="width: 100%; height:30px"></input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject"</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="width: 100%; height:100px"></textarea>
+    </div>
+  </div>
+
+  <button onclick="window.location.href='https://www.ggdesigngroup.com/';">
+      Submit</button>
+  </div>
+  </form>
+
+  <h2>Social Media</h2>
+
+
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+    </div>
+  </div>
+</div>
+    </body>
+    <seccion>
+    width: 20px;
+    </seccion>
+
+  <div class="div-1">
+
+
+    				<p class="footer-links">
+    					<a href="#">Start</a>
+    					|
+    					<a href="#">Projects</a>
+    					|
+    					<a href="#">ScanArea</a>
+    					|
+    					<a href="#">Contact</a>
+    				</p>
+
+    				<p class="footer-company-name">© 2020 GG Design Group</p>
+
+
+
+<div>
+    					<i class="fa fa-map-marker"></i>
+    					 <p><span>1027 Ne 10 Ave</span><P>
+</div>
+
+
+    					<i class="fa fa-phone"></i>
+    					<p>+305 812 6915</p>
+    					<i class="fa fa-envelope"></i>
+    				  <p>gginf@gmail.com</p>
+
+
+    				<p class="footer-company-about">
+    					<span>Check Us Out</span>
+    					We offer free consulting, fill out the contact form for a custom order.
+    				<div class="footer-icons">
+    					<a href="#"><i class="Start"></i></a>
+    					<a href="#"><i class="Product"></i></a>
+    					<a href="#"><i class="Check your Area"></i></a>
+    					<a href="#"><i class="Contact"></i></a>
+
+    			  </div>
+
+
+
+
+
+        <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
